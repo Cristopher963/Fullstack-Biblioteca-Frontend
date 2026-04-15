@@ -1,16 +1,134 @@
-# React + Vite
+# 📚 Biblioteca Fullstack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web fullstack para la **gestión de una biblioteca**, desarrollada con arquitectura separada de **frontend + backend**, enfocada en la administración de libros, lectores, ejemplares y préstamos.
 
-Currently, two official plugins are available:
+Este proyecto fue construido como práctica real de desarrollo fullstack, aplicando buenas prácticas en:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* arquitectura por capas
+* consumo de API REST
+* diseño responsive
+* separación frontend/backend
+* DTOs y mappers
+* validaciones
+* flujo CRUD completo
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🚀 Demo del proyecto
 
-## Expanding the ESLint configuration
+> Próximamente: deploy del frontend y backend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologías utilizadas
+
+### 🎨 Frontend
+
+* React
+* TypeScript
+* CSS
+* Responsive Design
+* Fetch / Axios
+
+### ⚙️ Backend
+
+* Java
+* Spring Boot
+* Spring Data JPA
+* Maven
+* MySQL
+* API REST
+
+---
+
+## ✨ Funcionalidades principales
+
+* 📚 CRUD de libros
+* 👤 CRUD de lectores
+* 📦 CRUD de ejemplares
+* 🔄 sistema de préstamos y devoluciones
+* 🔍 validación de disponibilidad
+* 🪟 modales para formularios
+* 📱 interfaz responsive
+* 🔗 conexión frontend ↔ backend
+
+---
+
+## 📂 Repositorios
+
+* 🎨 Frontend: PEGA_AQUI_LINK_FRONTEND
+* ⚙️ Backend: PEGA_AQUI_LINK_BACKEND
+
+---
+
+## 🖼️ Capturas
+
+> Agrega aquí screenshots del dashboard, tablas, modales y flujo de préstamos.
+
+Ejemplo:
+
+```md
+![Vista principal](ruta-imagen)
+```
+
+---
+
+## ⚡ Instalación local
+
+### 1) Clonar frontend
+
+```bash
+git clone PEGA_AQUI_LINK_FRONTEND
+```
+
+### 2) Clonar backend
+
+```bash
+git clone PEGA_AQUI_LINK_BACKEND
+```
+
+### 3) Ejecutar backend
+
+```bash
+mvn spring-boot:run
+```
+
+### 4) Ejecutar frontend
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 🎯 Lo que aprendí con este proyecto
+
+Este proyecto me permitió fortalecer habilidades en:
+
+* desarrollo fullstack
+* integración de frontend y backend
+* debugging con Postman
+* resolución de errores de CORS
+* arquitectura MVC
+* responsive design
+* organización modular del código
+* trabajo en equipo
+
+---
+
+## 🚀 Próximas mejoras (V2)
+
+* autenticación de usuarios
+* dashboard con estadísticas
+* filtros de búsqueda
+* historial de préstamos
+* notificaciones
+* deploy en producción
+* tests
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por **Cristopher963** como proyecto de práctica y portfolio profesional.
