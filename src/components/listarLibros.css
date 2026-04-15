@@ -1,0 +1,81 @@
+
+.libros-wrapper {
+  min-height: 100vh;
+  background-color: #f4f6f9;
+  padding: 2rem 3rem;
+}
+
+
+.seccion-titulo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.8rem;
+}
+
+
+.libro-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 1px solid #e5e7eb;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  transition: all 0.2s ease;
+}
+
+.libro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-header h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+
+.autor {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+
+.card-footer {
+  margin-top: 1.5rem;
+}
+
+
+.estado {
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.disponible {
+  background-color: #e1fedb;
+  color: #2ec720;
+}
+
+
+/* ROJO (no disponible) */
+.no-disponible {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
