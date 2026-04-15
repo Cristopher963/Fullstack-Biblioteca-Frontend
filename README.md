@@ -56,8 +56,8 @@ Este proyecto fue construido como práctica real de desarrollo fullstack, aplica
 
 ## 📂 Repositorios
 
-* 🎨 Frontend: PEGA_AQUI_LINK_FRONTEND
-* ⚙️ Backend: PEGA_AQUI_LINK_BACKEND
+* 🎨 Frontend: https://github.com/Cristopher963/Fullstack-Biblioteca-Frontend
+* ⚙️ Backend: https://github.com/Cristopher963/Fullstack-Biblioteca-Backend
 
 ---
 
