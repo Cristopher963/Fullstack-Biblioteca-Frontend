@@ -61,30 +61,18 @@ Este proyecto fue construido como práctica real de desarrollo fullstack, aplica
 
 ---
 
-## 🖼️ Capturas
-
-> Agrega aquí screenshots del dashboard, tablas, modales y flujo de préstamos.
-
-Ejemplo:
-
-```md
-![Vista principal](ruta-imagen)
-```
-
----
-
 ## ⚡ Instalación local
 
 ### 1) Clonar frontend
 
 ```bash
-git clone PEGA_AQUI_LINK_FRONTEND
+git clone https://github.com/Cristopher963/Fullstack-Biblioteca-Frontend
 ```
 
 ### 2) Clonar backend
 
 ```bash
-git clone PEGA_AQUI_LINK_BACKEND
+git clone https://github.com/Cristopher963/Fullstack-Biblioteca-Backend
 ```
 
 ### 3) Ejecutar backend
