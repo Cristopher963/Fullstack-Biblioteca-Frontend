@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import { Lector } from "../Lector";
+import { Lector } from "../../types/Lector";
 import {
   obtenerLectores,
   activarLector,
   desactivarLector,
-} from "../LectorAPI";
+} from "../../services/LectorAPI";
+import "./Lectores.css";
 
 
 export function ListarLectores() {

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { ListarLibros } from "./components/listarLibros";
-import { CrearLibro } from "./components/CrearLibro";
-import { ListarLectores } from "./components/Lectores";
-import { Lector } from "./Lector";
+import { ListarLibros } from "./components/libros/listarLibros";
+import { CrearLibro } from "./components/libros/CrearLibro";
+import { ListarLectores } from "./components/lectores/Lectores";
+import { Lector } from "./types/Lector";
 import "./App.css";
 
 function App() {

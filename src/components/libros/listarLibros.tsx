@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { EjemplaresModal } from "./EjemplaresModal";
 import "./ListarLibros.css";
-import { API_BASE_URL } from "../API";
+import { API_BASE_URL } from "../../API";
 
 interface Libro {
   idLibro: number;
@@ -20,7 +20,7 @@ export function ListarLibros({ search }: Props) {
   const [libroSeleccionado, setLibroSeleccionado] =
     useState<Libro | null>(null);
 
-  // 🔎 Cargar libros o buscar según search
+    
   useEffect(() => {
   const texto = search.trim();
 
