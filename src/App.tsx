@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { ListarLibros } from "./components/listarLibros";
-import { CrearLibro } from "./components/CrearLibro";
-import { ListarLectores } from "./components/Lectores";
-import { Lector } from "./Lector";
-import "./App.css";
+import { ListarLibros } from "./pages/Libros/ListarLibros";
+import { CrearLibro } from "./pages/Libros/CrearLibro";
+import { ListarLectores } from "./pages/Lectores/Lectores";
+import { Lector } from "./models/Lector";
+import "./assets/css/App.css";
 
 function App() {
   const [collapsed, setCollapsed] = useState(false);

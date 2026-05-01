@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { EjemplaresModal } from "./EjemplaresModal";
-import "./ListarLibros.css";
-import { API_BASE_URL } from "../API";
+import { EjemplaresModal } from "../../components/EjemplaresModal/EjemplaresModal";
+import "./listarLibros.css";
+import { API_BASE_URL } from "../../services/API";
 
 interface Libro {
   idLibro: number;
