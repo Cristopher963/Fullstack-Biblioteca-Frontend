@@ -1,4 +1,4 @@
-import { API_BASE_URL } from "./API";
+const API_BASE_URL = "http://localhost:8080/api";
 
 export const obtenerLectores = async () => {
   const res = await fetch(`${API_BASE_URL}/lectores`);
